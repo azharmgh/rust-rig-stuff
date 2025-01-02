@@ -84,10 +84,13 @@ impl Tool for FlightSearchTool {
         let api_key = env::var("RAPIDAPI_KEY").map_err(|_| FlightSearchError::MissingApiKey)?;
 
         // Set default values if not provided
-        let date = args.date.unwrap_or_else(|| {
-            let date = chrono::Utc::now() + chrono::Duration::days(30);
-            date.format("%Y-%m-%d").to_string()
-        });
+        //let date = args.date.unwrap_or_else(|| {
+        //    let date = chrono::Utc::now() + chrono::Duration::days(30);
+        //    date.format("%Y-%m-%d").to_string()
+        //});
+        let date = (chrono::Utc::now() + chrono::Duration::days(30)).format("%Y-%m-%d").to_string();
+        println!("utc now {} + 30", chrono::Utc::now() + chrono::Duration::days(30));
+        println!("Date: {}", date);
 
         let sort = args.sort.unwrap_or_else(|| "ML_BEST_VALUE".to_string());
         let service = args.service.unwrap_or_else(|| "ECONOMY".to_string());
@@ -112,6 +115,9 @@ impl Tool for FlightSearchTool {
         query_params.insert("currencyCode", currency.clone());
         query_params.insert("nearby", nearby);
         query_params.insert("nonstop", nonstop);
+
+
+        println!("Query parameters: {:?}", query_params);
 
         // Make the API request
         let client = reqwest::Client::new();
@@ -141,7 +147,7 @@ impl Tool for FlightSearchTool {
             .map_err(|e| FlightSearchError::HttpRequestFailed(e.to_string()))?;
 
         // Print the raw API response for debugging
-        // println!("Raw API response:\n{}", text);
+        println!("Raw API response:\n{}", text);
 
         // Check if the response is an error
         if !status.is_success() {

@@ -10,7 +10,7 @@ use rig::providers::openai;
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
     
     dotenv().ok();
-    println!("{}", env::var("OPENAI_API_KEY").unwrap());
+    println!("api key{}", env::var("OPENAI_API_KEY").unwrap());
     // Initialize the OpenAI client
     let openai_client = openai::Client::from_env();
 
