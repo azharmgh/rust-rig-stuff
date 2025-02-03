@@ -1,0 +1,47 @@
+Agent response:
+Here are some flight options:
+
+1. **Airline**: American
+   - **Flight Number**: AA
+   - **Departure**: 2025-01-31T14:36:00-06:00
+   - **Arrival**: 2025-02-01T08:15:00Z
+   - **Duration**: 11 hours 39 minutes
+   - **Stops**: 1 stop(s)
+   - **Price**: 512.50 USD
+   - **Booking URL**: https://www.tripadvisor.com/CheapFlightsPartnerHandoff?searchHash=f37ea8dba3e4c1c0bbbffcd136eccbec&provider=Kayak|2|12&area=FLTCenterColumn|0|1|ItinList|3|Meta_BrandedFarePrice&resultsServlet=CheapFlightsSearchResults&handoffPlatform=desktop&impressionId=&totalPricePerPassenger=512.5
+
+2. **Airline**: Iberia
+   - **Flight Number**: IB
+   - **Departure**: 2025-01-31T14:36:00-06:00
+   - **Arrival**: 2025-02-01T08:15:00Z
+   - **Duration**: 11 hours 39 minutes
+   - **Stops**: 1 stop(s)
+   - **Price**: 512.50 USD
+   - **Booking URL**: https://www.tripadvisor.com/CheapFlightsPartnerHandoff?searchHash=f37ea8dba3e4c1c0bbbffcd136eccbec&provider=Kayak|2|27&area=FLTCenterColumn|0|1|ItinList|4|Meta_ItineraryPrice&resultsServlet=CheapFlightsSearchResults&handoffPlatform=desktop&impressionId=&totalPricePerPassenger=512.5
+
+3. **Airline**: Finnair
+   - **Flight Number**: AY
+   - **Departure**: 2025-01-31T14:36:00-06:00
+   - **Arrival**: 2025-02-01T08:15:00Z
+   - **Duration**: 11 hours 39 minutes
+   - **Stops**: 1 stop(s)
+   - **Price**: 512.50 USD
+   - **Booking URL**: https://www.tripadvisor.com/CheapFlightsPartnerHandoff?searchHash=f37ea8dba3e4c1c0bbbffcd136eccbec&provider=Kayak|2|49&area=FLTCenterColumn|0|1|ItinList|2|Meta_ItineraryPrice&resultsServlet=CheapFlightsSearchResults&handoffPlatform=desktop&impressionId=&totalPricePerPassenger=512.5
+
+4. **Airline**: British Airways
+   - **Flight Number**: BA
+   - **Departure**: 2025-01-31T14:36:00-06:00
+   - **Arrival**: 2025-02-01T08:15:00Z
+   - **Duration**: 11 hours 39 minutes
+   - **Stops**: 1 stop(s)
+   - **Price**: 512.50 USD
+   - **Booking URL**: https://www.tripadvisor.com/CheapFlightsPartnerHandoff?searchHash=f37ea8dba3e4c1c0bbbffcd136eccbec&provider=Kayak|2|18&area=FLTCenterColumn|0|1|ItinList|5|Meta_BrandedFarePrice&resultsServlet=CheapFlightsSearchResults&handoffPlatform=desktop&impressionId=&totalPricePerPassenger=512.5
+
+5. **Airline**: British Airways
+   - **Flight Number**: BA
+   - **Departure**: 2025-01-31T12:26:00-06:00
+   - **Arrival**: 2025-02-01T06:20:00Z
+   - **Duration**: 11 hours 54 minutes
+   - **Stops**: 1 stop(s)
+   - **Price**: 512.50 USD
+   - **Booking URL**: https://www.tripadvisor.com/CheapFlightsPartnerHandoff?searchHash=f37ea8dba3e4c1c0bbbffcd136eccbec&provider=Kayak|2|28&area=FLTCenterColumn|0|1|ItinList|6|Meta_BrandedFarePrice&resultsServlet=CheapFlightsSearchResults&handoffPlatform=desktop&impressionId=&totalPricePerPassenger=512.5
